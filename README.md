@@ -1,6 +1,10 @@
 # De_novo_transcriptome_pipeline
 
+PIPELINE IS EXPERIMENTAL AT THE MOMENT
+
 Pipeline for De novo transcriptome creation of polpyploid plant species from Illumina data
+
+
 
 ## QC
 FastQC
