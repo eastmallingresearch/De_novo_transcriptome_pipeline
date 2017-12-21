@@ -39,7 +39,10 @@ qual_left=0.1 qual_right=0.25 removes about 30% of my data (this is a good thing
 ```shell
 PIPELINE.sh -c clean left right outdir qual_left qual_right
 ```
-### Phix rRNA/chloroplast/mitochondion filter
+### Contaminantnt filter
+
+Phix/rRNA/chloroplast/mitochondion/human and etc.
+
 Make Phix etc. Bowtie2 index
 ```
 bowtie2-build contaminants.fa contaminants
